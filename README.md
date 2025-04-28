@@ -92,8 +92,8 @@ from src.analysis.returns import calculate_daily_returns
 from src.visualization.time_series import plot_stock_prices
 
 # Load data for specific stocks
-tesla = load_stock_data('TSLA', '2018-01-01', '2023-01-01')
-ford = load_stock_data('F', '2018-01-01', '2023-01-01')
+tesla = load_stock_data('TSLA', '2018-01-01', '2025-01-01')
+ford = load_stock_data('F', '2018-01-01', '2025-01-01')
 
 # Calculate returns
 tesla_returns = calculate_daily_returns(tesla)
